@@ -37,9 +37,9 @@ import model.Person;
 public class MySQLController implements CensusDataPersistor{
 
     //Instance variables
-    private final String URL = "jdbc:mysql://79.170.44.155:3306/cl36-census";    //Location of database
-    private final String USER_NAME = "cl36-census";                            //Database username
-    private final String PASSWORD = "censusProject";                                 //Database password
+    private final String URL = "your-database-location";    //Location of database
+    private final String USER_NAME = "your-database-username";                            //Database username
+    private final String PASSWORD = "your-database-password";                                 //Database password
     private Connection connection;                                      //Connection object
     private CensusData censusData;                                      //CensusData object
     
